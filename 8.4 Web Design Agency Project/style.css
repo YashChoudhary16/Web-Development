@@ -1,6 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
-  margin: 50px 50px 0 50px;
   background-color: #faf9f6;
   display: flex;
   flex-direction: column;
@@ -17,5 +20,52 @@ h1 {
 footer {
   text-align: right;
   color: midnightblue;
+  margin-top: 7vh;
+  margin-right: 5vw;
+}
+.creative{
+  color:midnightblue;
 }
 
+
+@media (max-width:600px){
+  .logo{
+    width: 30%;
+    margin: 20px;
+  }
+  h1{
+    margin: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .tile-image{
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .card{
+    width: 80vw;
+    margin: 10%;
+  }
+}
+@media (min-width:600px){
+  .main{
+    margin: 50px 5vw 0px 5vw;
+  }
+  h1{
+    margin: 50px 50px 90px 0px;
+  }
+  .tile-image{
+    width: 300px;
+    float: left;
+    margin-right: 1vw;
+  }
+  .card.left{
+    float: left;
+    width: 43vw;
+  }
+  .card.right{
+    float: right;
+    width: 43vw;
+  }
+}
