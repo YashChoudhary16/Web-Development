@@ -1,0 +1,1 @@
+console.log("First time using node using terminal")
